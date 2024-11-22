@@ -95,6 +95,12 @@ o	Implements grid or spiral patterns to maximize area coverage.
 
 RQT Graph
 Include an RQT graph here to visualize nodes, topics, and their interactions.
+
+1. Teleoperation Turtlesim
+2. Wall Collision Turtlesim
+3. Multi Turtle Vacuum Coordination 
+4. Vacuum in Spiral Movement
+5. Autonomous navigation Turtlesim 
 ________________________________________
 Author
 Created as part of PDE4430 Mobile Robotics - Middlesex University Dubai coursework.
