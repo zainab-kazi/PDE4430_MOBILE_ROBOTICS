@@ -138,7 +138,7 @@ and multi-robot behaviours for efficient space coverage.
    - Implements grid or spiral patterns to maximize area coverage.
 
 ### RQT Graph
-Included all RQT graphs here to visualize nodes, topics, and their interactions.
+Included all RQT graphs to visualize nodes, topics, and their interactions.
 
 1. Task 1 - Teleoperation
 2. Task 2 - Autonomous navigation
@@ -152,4 +152,5 @@ Included all RQT graphs here to visualize nodes, topics, and their interactions.
 
 Created as part of PDE4430 Mobile Robotics - Middlesex University Dubai coursework.  
 **Email**: zainabkazi.zk@gmail.com
+Github Link: https://github.com/zainab-kazi/PDE4430_MOBILE_ROBOTICS.git
 ```
