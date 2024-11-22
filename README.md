@@ -1,4 +1,6 @@
-### **README Content**
+Here’s the complete content for your `README.md` file. You can copy and paste it directly into a text editor or IDE to create your Markdown file.
+
+---
 
 ```markdown
 # PDE4430_MOBILE_ROBOTICS
@@ -148,9 +150,11 @@ Included all RQT graphs here to visualize nodes, topics, and their interactions.
 3. Task 3 - Avoiding Wall Collision
 4. Task 4 - Vacuum Cleaning Behavior
 5. Task 5 - Multiple Turtle Vacuum
+
 ---
 
 ## Author
 
 Created as part of PDE4430 Mobile Robotics - Middlesex University Dubai coursework.  
 **Email**: zainabkazi.zk@gmail.com
+```
