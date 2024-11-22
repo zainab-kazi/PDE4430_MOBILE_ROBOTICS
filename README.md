@@ -39,14 +39,19 @@ roscore
 2. Launch the Turtlesim Node:
 rosrun turtlesim turtlesim_node
 3. Run the Project Scripts:
+
 •	Teleoperation: 
 •	rosrun teleop teleoperation.py
+
 •	Autonomous Navigation: 
 •	rosrun turtle_nav autonomous_navigation.py
+
 •	Wall Avoidance: 
 •	rosrun turtle_wall_avoidance wall_avoidance.py
+
 •	Vacuum Cleaning: 
 •	rosrun vacuum_clean vacuum_turtle.py
+
 •	Multi-Turtle Cleaning: 
 •	rosrun multi_turtle multi_turtle.py
 ________________________________________
@@ -54,14 +59,22 @@ Design and Architecture
 Nodes and Topics
 •	Nodes: 
 o	teleoperation.py: Handles keyboard control.
-o	autonomous_navigation.py: Navigates to specified coordinates.
-o	wall_avoidance.py: Stops the turtle movement when wall detected.
-o	vacuum_turtle.py: Implements vacuum cleaning for a single turtle.
-o	multi_turtle.py: Coordinates multiple turtles.
+
+o	navigate_turtle.py: Navigates to specified coordinates.
+
+o	wall_turtle.py: Stops the turtle movement when wall detected.
+
+o	vacuum.py: Implements vacuum cleaning for a single turtle.
+
+o	vacuum_turtles.py: Coordinates multiple turtles.
+
 •	Topics: 
 o	/turtle1/cmd_vel: Publishes velocity commands.
+
 o	/turtle1/pose: Subscribes to the turtle's position for navigation and collision avoidance.
+
 o	/spawn: Service call to spawn additional turtles.
+
 Algorithm Flow
 1.	Input Handling: 
 
