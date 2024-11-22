@@ -64,14 +64,22 @@ o	/turtle1/pose: Subscribes to the turtle's position for navigation and collisio
 o	/spawn: Service call to spawn additional turtles.
 Algorithm Flow
 1.	Input Handling: 
+
 o	Teleoperation for keyboard-based control.
 o	Coordinates for autonomous navigation.
+
 2.	Collision Avoidance: 
+
 o	Monitors the turtle's position and overrides movement commands to avoid collisions.
+
 3.	Multi-Turtle Coordination: 
+
 o	Spawns additional turtles and coordinates their movements to cover the area efficiently.
+
 4.	Vacuum Cleaning: 
+
 o	Implements grid or spiral patterns to maximize area coverage.
+
 RQT Graph
 Include an RQT graph here to visualize nodes, topics, and their interactions.
 ________________________________________
