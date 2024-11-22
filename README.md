@@ -1,8 +1,3 @@
-Here’s the complete content for your `README.md` file. You can copy and paste it directly into a text editor or IDE to create your Markdown file.
-
----
-
-```markdown
 # PDE4430_MOBILE_ROBOTICS
 
 ---
