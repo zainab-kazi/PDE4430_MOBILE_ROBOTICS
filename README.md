@@ -9,9 +9,6 @@ Table of Contents
 3.	Setup Instructions
 4.	Usage
 5.	Design and Architecture
-6.	Evaluation Criteria
-7.	Contributing
-8.	License
 ________________________________________
 Project Overview
 This project utilizes the Robotic Operating System (ROS) and the turtlesim simulator to showcase meaningful movement and coordination of one or more robots. The project includes teleoperation, autonomous navigation, collision avoidance, and multi-robot behaviours for efficient space coverage.
